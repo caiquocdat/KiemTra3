@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order.Tab.DangDenFragment"
+    android:gravity="center"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtimgdangden"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/dangden" />
+
+    <TextView
+        android:id="@+id/txtct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtimgdangden"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Quên chưa đặt đồ rồi nè bạn ơi?"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@+id/txtct1"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="Những đơn hàng đã được xác nhận, đang được chuẩn bị và giao đi đều sẽ được hiển thị ở đây để bạn có thể theo dõi nhé!"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="10dp"/>
+
+</RelativeLayout>

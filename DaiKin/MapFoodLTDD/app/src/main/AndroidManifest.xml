@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mapfoodltdd">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/daikin"
+        android:label="DAIKIN"
+        android:roundIcon="@mipmap/daikin"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MapFoodLTDD">
+        <activity android:name=".home.IconMenu.chitieticonmenu.ChiTietIconMenuActivity"></activity>
+        <activity android:name=".home.bosuutap1.GridBosuutap.GridItemBSTActivity" />
+        <activity android:name=".home.bosuutap1.GridBosuutap.XemThemBSTActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAqUwcN07tioAGQJ-qOvL7fk0X2uZmZpk" />
+
+        <activity android:name=".home.Map.MapActivity" />
+        <activity android:name=".profile.ThongTinNguoiDung.DoiTen" />
+        <activity android:name=".profile.ThongTinNguoiDung.DoiSoDT" />
+        <activity android:name=".profile.ThongTinNguoiDung.DoiEmail" />
+        <activity android:name=".profile.ThongTinNguoiDung.DoiAvatar" />
+        <activity android:name=".profile.ThongTinNguoiDung.ChonNghe" />
+        <activity android:name=".profile.ThongTinNguoiDung.ThongTinNguoiDung" />
+        <activity android:name=".collections.ListviewItemActivity" />
+        <activity android:name=".collections.Xemthem" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".home.listprovince.ListProvince" />
+        <activity android:name=".profile.DanhBa" />
+        <activity android:name=".profile.TaoDiaChi" />
+        <activity android:name=".profile.DiaChi" />
+        <activity android:name=".Login" />
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".LogoBK" >
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

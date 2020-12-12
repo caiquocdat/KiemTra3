@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MapFoodLTDD</string>
+    <string name="title_activity_footer">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Thông báo</string>
+    <string name="title_profile">Tôi</string>
+    <string name="title_order">Đơn hàng</string>
+    <string name="title_collections">Đã lưu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridiconmn"
+        android:background="#ffffff"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:id="@+id/imagemenu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/trasua"/>
+        <TextView
+            android:id="@+id/txticonmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bread"
+            android:textSize="22dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_below="@id/imagemenu"/>
+    </RelativeLayout>
+
+</RelativeLayout>

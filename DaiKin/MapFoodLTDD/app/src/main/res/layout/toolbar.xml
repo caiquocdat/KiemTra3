@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    android:background="@color/colorprimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/listprovince1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="8dp"
+            android:text="Xin chào Cái Quốc Đạt"
+            android:textColor="#ffffff"
+
+
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/listprovince"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:drawablePadding="10dp"
+            android:text="Đà Nẵng"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
